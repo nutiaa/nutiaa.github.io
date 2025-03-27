@@ -1,0 +1,364 @@
+body {
+    margin: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    color: black;
+}
+
+#wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    height: 60.9vw;
+}
+
+#scene {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.text {
+    position: absolute;
+    display: block;
+    color: white;
+    font-family: arial, sans-serif;
+    z-index: 1;
+}
+
+.text.top {
+    font-size: 5.45vw;
+    top: 2.8vw;
+}
+
+.text.bottom {
+    font-size: 2.3vw;
+    bottom: 3.1vw;
+}
+
+.text.left {
+    left: 3.6vw;
+}
+
+.text.right {
+    right: 3.6vw;
+}
+
+.text.top-center {
+    top: 9vw;
+    font-size: 2.3vw;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+@media (min-aspect-ratio: 953/580) {
+    #wrapper {
+        width: 164.2vh;
+        height: 100vh;
+    }
+
+    .text.top {
+        font-size: 9vh;
+        top: 4.2vh;
+    }
+
+    .text.bottom {
+        font-size: 3.9vh;
+        bottom: 5.1vh;
+    }
+
+    .text.left {
+        left: 6vh;
+    }
+
+    .text.right {
+        right: 6.1vh;
+    }
+
+    .text.top-center {
+        top: 15vh;
+        font-size: 3.6vh;
+    }
+}
+
+/* Scene 1 */
+
+#scene.scene-1 {
+    background-image: url("../images/scene-1-bg.png");
+}
+
+#scene.scene-1 button {
+    position: absolute;
+    right: 2.8vw;
+    top: 28.35vw;
+    width: 22.2vw;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    cursor: pointer;
+    border: 0.55vw solid #FF79B6;
+    line-height: 3.8vw;
+    font-size: 2.6vw;
+    color: #FF79B6;
+    background-color: white;
+    transition-property: color, background-color, border-color;
+    transition-duration: 0.5s;
+}
+
+#scene.scene-1 button:hover {
+    color: white;
+    background-color: #FF79B6;
+    border-color: white;
+}
+
+@media (min-aspect-ratio: 953/580) {
+    #scene.scene-1 button {
+        right: 4.6vh;
+        top: 46.5vh;
+        line-height: 6.2vh;
+        width: 36.4vh;
+        border-width: 0.9vh;
+        font-size: 4vh;
+    }
+}
+
+/* Scene 2 */
+
+#scene.scene-2 {
+    background-image: url("../images/scene-2-bg.png");
+}
+
+.ticket-text {
+    position: absolute;
+    width: 26.9vw;
+    height: 12.9vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: arial, sans-serif;
+    font-size: 2.25vw;
+    line-height: 1.14;
+    opacity: 0;
+    transition: opacity 0.5s;
+    cursor: pointer;
+}
+
+.ticket-text.active {
+    opacity: 1;
+    cursor: default;
+}
+
+#ticket-1-text {
+    left: 11.2vw;
+    top: 21.3vw;
+    transform: rotate(-33.3deg);
+}
+
+#ticket-2-text {
+    left: 24.9vw;
+    top: 31.8vw;
+    color: #FF79B6;
+}
+
+#ticket-3-text {
+    left: 53.2vw;
+    top: 17.2vw;
+    transform: rotate(-18deg);
+}
+
+#ticket-4-text {
+    left: 60.3vw;
+    top: 33.3vw;
+    transform: rotate(20.1deg);
+    font-size: 1.33vw;
+    text-align: left;
+}
+
+@media (min-aspect-ratio: 953/580) {
+    .ticket-text {
+        width: 44.4vh;
+        height: 21.2vh;
+        font-size: 3.7vh;
+    }
+
+    #ticket-1-text {
+        left: 18.3vh;
+        top: 34.9vh;
+    }
+
+    #ticket-2-text {
+        left: 40.8vh;
+        top: 52.2vh;
+    }
+
+    #ticket-3-text {
+        left: 87.2vh;
+        top: 28.2vh;
+    }
+
+    #ticket-4-text {
+        left: 99.0vh;
+        top: 54.7vh;
+        font-size: 2.19vh;
+    }
+}
+
+/* Scene 3 */
+
+#scene.scene-3 {
+    background-image: url("../images/scene-3-bg.png");
+}
+
+.figure-dancer {
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transform: rotateX(20deg) rotateY(0);
+}
+
+@keyframes figureDancing {
+    0% { transform: rotateX(20deg) rotateY(0); }
+    100%  { transform: rotateX(20deg) rotateY(360deg); }
+}
+
+.figure-dancer.active {
+    animation: figureDancing 2.5s infinite linear;
+}
+
+#circle-dancer {
+    position: absolute;
+    border-radius: 50%;
+    background-color: #AD1717;
+    left: 32.1vw;
+    top: 29.2vw;
+    width: 11.6vw;
+    height: 11.6vw;
+}
+
+#rectangle-dancer {
+    position: absolute;
+    background-color: #FF79B6;
+    left: 49.9vw;
+    top: 21vw;
+    width: 9.3vw;
+    height: 15.7vw;
+}
+
+#triangle-dancer {
+    position: absolute;
+    left: 67.1vw;
+    top: 32.4vw;
+    width: 0;
+    height: 0;
+    border-left: 0 solid transparent;
+    border-right: 12vw solid transparent;
+    border-bottom: 7.8vw solid #F71E1E;
+}
+
+@media (min-aspect-ratio: 953/580) {
+    #circle-dancer {
+        left: 52.7vh;
+        top: 48.0vh;
+        width: 19vh;
+        height: 19vh;
+    }
+
+    #rectangle-dancer {
+        left: 82vh;
+        top: 34.5vh;
+        width: 15.2vh;
+        height: 25.7vh;
+    }
+
+    #triangle-dancer {
+        left: 110.2vh;
+        top: 53.2vh;
+        border-right: 20vh solid transparent;
+        border-bottom: 12.9vh solid #F71E1E;
+    }
+}
+
+/* Scene 4 */
+
+#scene.scene-4 {
+    background-image: url("../images/scene-4-bg.png");
+}
+
+.score {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 13.6vw;
+    height: 13.6vw;
+    font-family: arial, sans-serif;
+    color: black;
+    font-size: 7vw;
+    background: transparent;
+}
+
+#score-1 {
+    left: 13.6vw;
+    top: 28.0vw;
+}
+
+#score-2 {
+    left: 34.7vw;
+    top: 16.8vw;
+}
+
+#score-3 {
+    left: 52.6vw;
+    top: 38.2vw;
+}
+
+#score-4 {
+    box-sizing: border-box;
+    border: none;
+    margin: 0;
+    padding: 0 3vw 0 0;
+    left: 73.2vw;
+    top: 27.2vw;
+    text-align: right;
+    border-radius: 50%;
+}
+
+@media (min-aspect-ratio: 953/580) {
+    .score {
+        width: 22.3vh;
+        height: 22.3vh;
+        font-size: 11.4vh;
+    }
+
+    #score-1 {
+        left: 22.4vh;
+        top: 46vh;
+    }
+
+    #score-2 {
+        left: 57.1vh;
+        top: 27.6vh;
+    }
+
+    #score-3 {
+        left: 86.5vh;
+        top: 62.7vh;
+    }
+
+    #score-4 {
+        padding: 0 5vh 0 0;
+        left: 120.3vh;
+        top: 44.6vh;
+    }
+}
