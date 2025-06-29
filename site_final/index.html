@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POINT - Интерактивный дизайн</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <nav class="navigation">
+        <div class="nav-item active" data-section="program">Program</div>
+        <div class="nav-item" data-section="calendar">Calendar</div>
+        <div class="nav-item" data-section="tickets">Tickets</div>
+        <div class="nav-item" data-section="services">Services</div>
+        <div class="nav-item" data-section="about">About</div>
+        <div class="nav-item" data-section="shop">Shop</div>
+    </nav>
+
+    <div class="container" id="container">
+        <div class="letter-m">
+            <div class="line line1"></div>
+            <div class="line line2"></div>
+            <div class="line line3"></div>
+            <div class="line line4"></div>
+            <div class="line line5"></div>
+        </div>
+        <div class="letter-m-big">
+
+            <div class="letter-m-big2">
+                <div class="line line1-big"></div>
+                <div class="line line2-big"></div>
+                <div class="line line4-big"></div>
+            </div>
+
+            <div class="letter-m-big3">
+                <div class="line line1-big2"></div>
+                <div class="line line3-big2"></div>
+                <div class="line line2-big2"></div>
+            </div>
+
+            <div class="line line-horis-center"></div>
+
+        </div>
+
+
+        <div class="pink-block pink-block-1"></div>
+        <div class="pink-block pink-block-2"></div>
+
+        <div class="letter letter-p">P</div>
+        <div class="letter letter-o">O</div>
+        <div class="letter letter-i">
+            <div class="letter-i-top"></div>
+            <div class="letter-i-bottom"></div>
+        </div>
+        <div class="letter letter-n">N</div>
+        <div class="letter letter-t">T</div>
+
+        <div class="geometric-line line-horizontal-1"></div>
+        <div class="geometric-line line-horizontal-2"></div>
+
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+        <div class="circle circle-3"></div>
+        <div class="circle circle-4"></div>
+        <div class="circle circle-5"></div>
+        <div class="circle circle-6"></div>
+        <div class="circle circle-7"></div>
+
+        <div class="center-image-container" id="centerImage">
+        </div>
+
+        <button id="registerBtn" class="register-btn" style="display: none;">REGISTER</button>
+    </div>
+
+    <div class="calendar-overlay" id="calendarOverlay">
+        <div class="calendar-grid">
+            <div class="calendar-day left-in">
+                <div class="calendar-num">12</div>
+                <hr class="calendar-line">
+                <div class="calendar-weekday">ПЯТНИЦА</div>
+                <div class="calendar-list">
+                    <div>"Вишнёвый сад" - Антон Чехов</div>
+                    <div>"Гамлет" — Уильям Шекспир</div>
+                    <div>"Собачье сердце" - Михаил Булгаков</div>
+                </div>
+            </div>
+            <div class="calendar-day right-in">
+                <div class="calendar-num">13</div>
+                <hr class="calendar-line">
+                <div class="calendar-weekday">СУББОТА</div>
+                <div class="calendar-list">
+                    <div>"Преступление и наказание" - Федор Достоевский</div>
+                    <div>"Ромео и Джульетта" — Уильям Шекспир</div>
+                    <div>"Война и мир" - Лев Толстой</div>
+                </div>
+            </div>
+            <div class="calendar-day left-in">
+                <div class="calendar-num">14</div>
+                <hr class="calendar-line">
+                <div class="calendar-weekday">ВОСКРЕСЕНЬЕ</div>
+                <div class="calendar-list">
+                    <div>"О любви" — Антон Чехов</div>
+                    <div>"Анна каренина" — Лев Толстой</div>
+                    <div>"Война и мир" — Лев Толстой</div>
+                </div>
+            </div>
+            <div class="calendar-day right-in">
+                <div class="calendar-num">15</div>
+                <hr class="calendar-line">
+                <div class="calendar-weekday">ПОНЕДЕЛЬНИК</div>
+                <div class="calendar-list">
+                    <div>"Ромео и Джульетта" — Уильям Шекспир</div>
+                    <div>"Гамлет" — Уильям Шекспир</div>
+                    <div>"Преступление и наказание" — Федор Достоевский</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tickets-overlay" id="ticketsOverlay">
+        <div class="tickets-container">
+            <div class="ticket-item">
+
+                <div class="ticket-line left"></div>
+                <div class="ticket-line right"></div>
+
+                <div class="ticket-image" style="background-image: url('https://via.placeholder.com/150')"></div>
+                <div class="ticket-content">
+                    <div class="ticket-line top"></div>
+                    <div class="ticket-line bottom"></div>
+                    <div class="ticket-info">
+                        <div class="ticket-title">Ромео и Джульетта</div>
+                        <div class="ticket-date">15/08 18:00</div>
+                        <div class="ticket-author">Уильям Шекспир</div>
+                    </div>
+                    <div class="ticket-btn-container">
+                        <button class="ticket-btn">BUY A TICKET</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ticket-item">
+
+                <div class="ticket-line left"></div>
+                <div class="ticket-line right"></div>
+
+                <div class="ticket-image" style="background-image: url('https://via.placeholder.com/150')"></div>
+                <div class="ticket-content">
+                    
+                    <div class="ticket-line bottom"></div>
+                    <div class="ticket-info">
+                        <div class="ticket-title">О любви</div>
+                        <div class="ticket-date">14/08 18:00</div>
+                        <div class="ticket-author">Антон Чехов</div>
+                    </div>
+                    <div class="ticket-btn-container">
+                        <button class="ticket-btn">BUY A TICKET</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ticket-item">
+
+
+                <div class="ticket-line left"></div>
+                <div class="ticket-line right"></div>
+
+                <div class="ticket-image" style="background-image: url('https://via.placeholder.com/150')"></div>
+                <div class="ticket-content">
+                    <div class="ticket-line top"></div>
+                    <div class="ticket-line bottom"></div>
+                    <div class="ticket-info">
+                        <div class="ticket-title">Преступление и наказание</div>
+                        <div class="ticket-date">15/08 18:00</div>
+                        <div class="ticket-author">Федор Достоевский</div>
+                    </div>
+                    <div class="ticket-btn-container">
+                        <button class="ticket-btn">BUY A TICKET</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="services-overlay" id="servicesOverlay">
+        <div class="services-container">
+            <div class="service-item">
+
+                <div class="service-image" style="background-image: url('https://via.placeholder.com/150')"></div>
+                <div class="service-content">
+                    <div class="service-line top"></div>
+                    <div class="service-line bottom"></div>
+                    <div class="service-title">Возврат и обмен билетов</div>
+                    <div class="service-btn-container">
+                        <button class="service-btn">BUY A TICKET</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="service-item">
+
+                <div class="service-image" style="background-image: url('https://via.placeholder.com/150')"></div>
+                <div class="service-content">
+                    <div class="service-line top"></div>
+                    <div class="service-line bottom"></div>
+                    <div class="service-title">Организованные визиты</div>
+                    <div class="service-btn-container">
+                        <button class="service-btn">BUY A TICKET</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="service-item">
+
+                <div class="service-image" style="background-image: url('https://via.placeholder.com/150')"></div>
+                <div class="service-content">
+                    <div class="service-line top"></div>
+                    <div class="service-line bottom"></div>
+                    <div class="service-title">Абонементы и сезонные пропуски</div>
+                    <div class="service-btn-container">
+                        <button class="service-btn">BUY A TICKET</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="about-overlay" id="aboutOverlay">
+        <img src="./img/photo_2025-06-29_12-01-06.jpg" alt="" class="about_back">
+        <div class="letters_container">
+
+            <div class="letter letter-p">P</div>
+            <div class="letter letter-o">O</div>
+            <div class="letter letter-i">
+                <div class="letter-i-top"></div>
+                <div class="letter-i-bottom"></div>
+            </div>
+            <div class="letter letter-n">N</div>
+            <div class="letter letter-t">T</div>
+        </div>
+        
+
+
+
+        <div class="about-circle about-circle-1"></div>
+        <div class="about-circle about-circle-2"></div>
+        <div class="about-circle about-circle-3"></div>
+        <div class="about-circle about-circle-4"></div>
+        <div class="about-circle about-circle-5"></div>
+
+        <div class="about-content">
+            <div class="about-text">
+                Мы верим, что театр — это живой разговор:<br>
+                между актёром и зрителем, между прошлым и будущим, между традицией и экспериментом
+            </div>
+
+            <div class="about-divider"></div>
+
+            <div class="about-text">
+                Наша миссия — создавать пространство для этого диалога,<br>
+                где каждое представление становится уникальным опытом
+                Присоединяйтесь к нам в этом путешествии<br>
+                через границы времени и воображения
+            </div>
+        </div>
+    </div>
+
+    <div class="shop-overlay" id="shopOverlay">
+        <div class="shop-header">
+            <div class="circle-shop cs01"></div>
+            <div class="circle-shop cs02"></div>
+            <div class="circle-shop cs03"></div>
+            <div class="circle-shop cs04"></div>
+            <div class="circle-shop cs05"></div>
+            <div class="circle-shop cs06"></div>
+            <img src="./img/shop_top.png" alt="" class="shop_top">
+            <img src="./img/name_list.svg" alt="" class="shop_bottom">
+            <div class="shop-header-content">
+                <h1 class="shop-title">МАГАЗИН</h1>
+            </div>
+
+            <div class="shop_rotate_lines">
+                <div class="shop_rotate_line">Chekhov human drama</div>
+                <div class="shop_rotate_line">
+                    <span>Artaud</span>
+                    <span>epic theatre</span>
+                </div>
+                <div class="shop_rotate_line">
+                    <span>Stanislavskiy N.S.</span>
+                    <span>Voice</span>
+                </div>
+                <div class="shop_rotate_line">Grotowski poor theatre</div>
+                <div class="shop_rotate_line">
+                    <span>playwright</span>
+                    <span>Brook N.</span>
+                </div>
+                <div class="shop_rotate_line">
+                    <span>Pro Act</span>
+                    <span>Alexeev N.</span>
+                </div>
+                <div class="shop_rotate_line">
+                    <span>Artaud</span>
+                    <span>epic theatre</span>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="shop-catalog">
+
+            <div class="circle-shop cs1"></div>
+            <div class="circle-shop cs2"></div>
+            <div class="circle-shop cs3"></div>
+            <div class="circle-shop cs4"></div>
+            <div class="circle-shop cs5"></div>
+            <div class="circle-shop cs6"></div>
+            <div class="circle-shop cs7"></div>
+            <div class="circle-shop cs8"></div>
+
+            <h2 class="shop-category">КНИГИ И СУВЕНИРЫ</h2>
+
+            <div class="shop-items">
+                <div class="shop-item">
+                    <div class="block">
+                        <img src="./img/photo_2025-06-29_13-22-31.jpg" alt="">
+                    </div>
+                    <div class="shop-item-name">Блокнот</div>
+                    <div class="shop-item-author">Для заметок</div>
+                    <div class="shop-item-price">800 ₽</div>
+                </div>
+                <div class="shop-item">
+                    <div class="block">
+                        <img src="./img/photo_2025-06-29_13-22-31.jpg" alt="">
+                    </div>
+                    <div class="shop-item-name">Футболка</div>
+                    <div class="shop-item-author">С логотипом</div>
+                    <div class="shop-item-price">2 000 ₽</div>
+                </div>
+                <div class="shop-item">
+                    <div class="block">
+                        <img src="./img/photo_2025-06-29_13-22-31.jpg" alt="">
+                    </div>
+                    <div class="shop-item-name">Кружка</div>
+                    <div class="shop-item-author">600 мл</div>
+                    <div class="shop-item-price">1 000 ₽</div>
+                </div>
+                <div class="shop-item">
+                    <div class="block">
+                        <img src="./img/photo_2025-06-29_13-22-31.jpg" alt="">
+                    </div>
+                    <div class="shop-item-name">Голос</div>
+                    <div class="shop-item-author">Станиславский Н.</div>
+                    <div class="shop-item-price">790 ₽</div>
+                </div>
+                <div class="shop-item">
+                    <div class="block">
+                        <img src="./img/photo_2025-06-29_13-22-31.jpg" alt="">
+                    </div>
+                    <div class="shop-item-name">Работа над ролью</div>
+                    <div class="shop-item-author">Станиславский Н.</div>
+                    <div class="shop-item-price">5 000 ₽</div>
+                </div>
+                <div class="shop-item">
+                    <div class="block">
+                        <img src="./img/photo_2025-06-29_13-22-31.jpg" alt="">
+                    </div>
+                    <div class="shop-item-name">О технике актёра</div>
+                    <div class="shop-item-author">Чехов М.</div>
+                    <div class="shop-item-price">450 ₽</div>
+                </div>
+                <div class="shop-item">
+                    <div class="block">
+                        <img src="./img/photo_2025-06-29_13-22-31.jpg" alt="">
+                    </div>
+                    <div class="shop-item-name">закладки</div>
+                    <div class="shop-item-author">театральные</div>
+                    <div class="shop-item-price">400 ₽</div>
+                </div>
+                <div class="shop-item">
+                    <div class="block">
+                        <img src="./img/photo_2025-06-29_13-22-31.jpg" alt="">
+                    </div>
+                    <div class="shop-item-name">закладки</div>
+                    <div class="shop-item-author">театральные</div>
+                    <div class="shop-item-price">400 ₽</div>
+                </div>
+            </div>
+
+            <div class="shop-discount">
+                <p class="left_text">ПРИ ПРЕДЪЯВЛЕНИИ БИЛЕТА<span>СКИДКА</span></p> <span class="sale">20%</span>
+            </div>
+        </div>
+
+        <div class="shop-cart">
+            <div class="cart-icon" id="cartToggle">🛒<span class="cart-count">0</span></div>
+
+            <div class="cart-dropdown">
+                <div class="cart-header">
+                    <h3>КОРЗИНА</h3>
+                    <p>ВАШИ ТОВАРЫ</p>
+                    <button class="clear-cart-btn">Очистить всё</button>
+                </div>
+
+                <div class="cart-items" id="cartItems">
+                </div>
+
+                <div class="cart-total">
+                    <div class="total-price">0 ₽</div>
+                    <div class="cart-message">ENJOY!</div>
+                    <button class="checkout-btn">ОПЛАТИТЬ</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/1.js"></script>
+</body>
+
+</html>
