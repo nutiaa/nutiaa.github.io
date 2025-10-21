@@ -1,0 +1,1708 @@
+/* Сброс стилей */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fantasque Sans Mono', monospace;
+    background-color: #FAF9EF;
+    color: #121212;
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: auto;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+main {
+    width: 1920px;
+    height: 100vh;
+    position: relative;
+    background-color: #FAF9EF;
+    transform: scale(0.5);
+    transform-origin: top center;
+}
+
+.screen1 {
+    width: 1920px;
+    height: 100vh;
+    position: relative;
+    background-color: #FAF9EF;
+}
+
+/* Главное изображение */
+.main-image {
+    position: absolute;
+    top: 102px;
+    left: 35px;
+    width: 1850.78px;
+    height: 1064.13px;
+    z-index: 1;
+}
+
+.main-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* Заголовок */
+.main-title {
+    position: absolute;
+    top: 305px;
+    left: 198px;
+    width: 1500px;
+    height: 640px;
+    z-index: 10;
+}
+
+.main-title h1 {
+    font-family: 'Fantasque Sans Mono', monospace;
+    font-size: 160px;
+    font-weight: 400;
+    line-height: 1em;
+    color: #121212;
+    text-align: left;
+    margin: 0;
+    letter-spacing: -0.02em;
+    width: 1500px;
+    height: 640px;
+}
+
+.title-line-1 {
+    font-family: 'Fantasque Sans Mono', monospace;
+    font-size: 160px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-style: normal;
+}
+
+.title-line-2 {
+    font-family: 'Fantasque Sans Mono', monospace;
+    font-size: 160px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 10px;
+}
+
+.title-line-3 {
+    font-family: 'Fantasque Sans Mono', monospace;
+    font-size: 160px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-style: normal;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 10px;
+}
+
+.title-line-4 {
+    font-family: 'Fantasque Sans Mono', monospace;
+    font-size: 160px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-style: normal;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 10px;
+}
+
+/* Кружки */
+.circle {
+    position: absolute;
+    background-color: #FF5A00;
+    border-radius: 50%;
+    z-index: 5;
+}
+
+.circle-1 {
+    width: 52px;
+    height: 52px;
+    top: 655px;
+    left: 1556px;
+}
+
+.circle-2 {
+    width: 52px;
+    height: 52px;
+    top: 818px;
+    left: 605px;
+}
+
+.circle-3 {
+    width: 35px;
+    height: 33px;
+    top: 537px;
+    left: 643px;
+}
+
+.circle-4 {
+    width: 35px;
+    height: 33px;
+    top: 1956px;
+    left: 682px;
+}
+
+.circle-5 {
+    width: 35px;
+    height: 33px;
+    top: 2022px;
+    left: 636px;
+}
+
+.circle-6 {
+    width: 35px;
+    height: 33px;
+    top: 1986px;
+    left: 572px;
+}
+
+.circle-7 {
+    width: 35px;
+    height: 33px;
+    top: 4109px;
+    left: 772px;
+}
+
+.circle-8 {
+    width: 35px;
+    height: 33px;
+    top: 4192px;
+    left: 244px;
+}
+
+.circle-9 {
+    width: 35px;
+    height: 33px;
+    top: 4224px;
+    left: 375px;
+}
+
+.circle-10 {
+    width: 35px;
+    height: 33px;
+    top: 2924px;
+    left: 1742px;
+    background-color: #FFB96C;
+}
+
+.circle-11 {
+    width: 35px;
+    height: 33px;
+    top: 4922px;
+    left: 781px;
+    z-index: 20;
+}
+
+.circle-12 {
+    width: 35px;
+    height: 33px;
+    top: 2808px;
+    left: 139px;
+    background-color: #FFB96C;
+}
+
+.circle-13 {
+    width: 35px;
+    height: 33px;
+    top: 3236px;
+    left: 209px;
+}
+
+.circle-14 {
+    width: 43px;
+    height: 40px;
+    top: 5314px;
+    left: 1133px;
+    z-index: 20;
+}
+
+.circle-15 {
+    width: 43px;
+    height: 40px;
+    top: 5505px;
+    left: 1056px;
+    z-index: 20;
+}
+
+.circle-16 {
+    width: 43px;
+    height: 40px;
+    top: 5485px;
+    left: 884px;
+    z-index: 20;
+}
+
+.circle-17 {
+    width: 43px;
+    height: 40px;
+    top: 9088px;
+    left: 354px;
+}
+
+.circle-18 {
+    width: 43px;
+    height: 40px;
+    top: 8217px;
+    left: 1459px;
+}
+
+.circle-19 {
+    width: 43px;
+    height: 40px;
+    top: 8413px;
+    left: 400px;
+    z-index: 20;
+}
+
+.circle-20 {
+    width: 17px;
+    height: 16px;
+    top: 10756px;
+    left: 342px;
+    z-index: 20;
+}
+
+.circle-21 {
+    width: 17px;
+    height: 16px;
+    top: 10681px;
+    left: 375px;
+    z-index: 20;
+}
+
+.circle-22 {
+    width: 17px;
+    height: 16px;
+    top: 10612px;
+    left: 409px;
+    z-index: 20;
+}
+
+.circle-23 {
+    width: 18px;
+    height: 18px;
+    top: 10735px;
+    left: 1564px;
+    z-index: 20;
+}
+
+.circle-24 {
+    width: 18px;
+    height: 18px;
+    top: 10572px;
+    left: 1617px;
+    z-index: 20;
+}
+
+.circle-25 {
+    width: 17px;
+    height: 16px;
+    top: 9533px;
+    left: 450px;
+}
+
+.circle-26 {
+    width: 43px;
+    height: 40px;
+    top: 9972px;
+    left: 296px;
+    background-color: #332E7F;
+}
+
+.circle-27 {
+    width: 43px;
+    height: 40px;
+    top: 10100px;
+    left: 500px;
+    background-color: #332E7F;
+}
+
+.circle-28 {
+    width: 43px;
+    height: 40px;
+    top: 9844px;
+    left: 477px;
+    background-color: #332E7F;
+}
+
+.circle-29 {
+    width: 17px;
+    height: 16px;
+    top: 10545px;
+    left: 438px;
+    z-index: 20;
+}
+
+.circle-30 {
+    width: 17px;
+    height: 16px;
+    top: 10476px;
+    left: 478px;
+    z-index: 20;
+}
+
+.circle-31 {
+    width: 17px;
+    height: 16px;
+    top: 10414px;
+    left: 514px;
+    z-index: 20;
+}
+
+/* Кружки с обводкой */
+.circle-outline {
+    position: absolute;
+    background-color: transparent;
+    border: 6px solid #FF5A00;
+    border-radius: 50%;
+    z-index: 15;
+}
+
+.circle-outline-1 {
+    width: 100px;
+    height: 100px;
+    top: 8515px;
+    left: 397px;
+}
+
+.circle-outline-2 {
+    width: 100px;
+    height: 100px;
+    top: 8640px;
+    left: 110px;
+}
+
+.circle-outline-3 {
+    width: 100px;
+    height: 100px;
+    top: 8528px;
+    left: 694px;
+}
+
+.circle-outline-4 {
+    width: 100px;
+    height: 100px;
+    top: 8653px;
+    left: 1057px;
+}
+
+.circle-outline-5 {
+    width: 100px;
+    height: 100px;
+    top: 8443px;
+    left: 1677px;
+}
+
+/* Стрелки */
+.arrow {
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 8;
+}
+
+.arrow-1 {
+    width: 66px;
+    height: 754px;
+    top: 3540px;
+    left: 73px;
+    background-image: url('../images/arrow-1.svg');
+}
+
+.arrow-2 {
+    width: 66px;
+    height: 754px;
+    top: 3557px;
+    left: 1716.8px;
+    background-image: url('../images/arrow-2.svg');
+}
+
+.arrow-3 {
+    width: 138px;
+    height: 72px;
+    top: 4293px;
+    left: 36px;
+    background-image: url('../images/arrow-3.svg');
+}
+
+.arrow-4 {
+    width: 131px;
+    height: 69px;
+    top: 4300px;
+    left: 1694px;
+    background-image: url('../images/arrow-4.svg');
+}
+
+.arrow-5 {
+    width: 156px;
+    height: 103px;
+    top: 4009px;
+    left: 1607px;
+    background-image: url('../images/arrow-5.svg');
+}
+
+.arrow-6 {
+    width: 1007px;
+    height: 792px;
+    top: 4994px;
+    left: 398.3px;
+    background-image: url('../images/arrow-6.svg');
+}
+
+.arrow-7 {
+    width: 828px;
+    height: 589px;
+    top: 5102.73px;
+    left: 458.3px;
+    background-image: url('../images/arrow-7.svg');
+}
+
+.arrow-8 {
+    width: 377px;
+    height: 354px;
+    top: 6099px;
+    left: 813px;
+    background-image: url('../images/arrow-8.svg');
+}
+
+.arrow-9 {
+    width: 377px;
+    height: 354px;
+    top: 6681px;
+    left: 1353px;
+    background-image: url('../images/arrow-9.svg');
+}
+
+.arrow-10 {
+    width: 377px;
+    height: 354px;
+    top: 7267px;
+    left: 205px;
+    background-image: url('../images/arrow-10.svg');
+}
+
+.arrow-11 {
+    width: 388px;
+    height: 405px;
+    top: 11283px;
+    left: 968px;
+    background-image: url('../images/arrow-11.svg');
+}
+
+.arrow-12 {
+    width: 388px;
+    height: 406px;
+    top: 10456px;
+    left: 1352px;
+    background-image: url('../images/arrow-12.svg');
+}
+
+.arrow-13 {
+    width: 1536px;
+    height: 1351px;
+    top: 10100px;
+    left: 78px;
+    background-image: url('../images/arrow-13.svg');
+}
+
+.arrow-14 {
+    width: 47px;
+    height: 37px;
+    top: 4787px;
+    left: 994px;
+    background-image: url('../images/arrow-14.svg');
+    display: none;
+}
+
+.arrow-15 {
+    width: 47px;
+    height: 37px;
+    top: 4866px;
+    left: 994px;
+    background-image: url('../images/arrow-15.svg');
+    display: none;
+}
+
+.arrow-16 {
+    width: 47px;
+    height: 37px;
+    top: 4943px;
+    left: 994px;
+    background-image: url('../images/arrow-16.svg');
+    display: none;
+}
+
+.arrow-17 {
+    width: 47px;
+    height: 37px;
+    top: 4787px;
+    left: 1384px;
+    background-image: url('../images/arrow-17.svg');
+    display: none;
+}
+
+.arrow-18 {
+    width: 47px;
+    height: 37px;
+    top: 4866px;
+    left: 1384px;
+    background-image: url('../images/arrow-18.svg');
+    display: none;
+}
+
+.arrow-19 {
+    width: 47px;
+    height: 37px;
+    top: 4943px;
+    left: 1384px;
+    background-image: url('../images/arrow-19.svg');
+    display: none;
+}
+
+/* Декоративные изображения */
+.decorative {
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 3;
+}
+
+.decorative-1 {
+    width: 165px;
+    height: 176px;
+    top: 1254px;
+    left: 1668px;
+    background-image: url('../images/decorative-1.svg');
+}
+
+.decorative-2 {
+    width: 1123px;
+    height: 230px;
+    top: 1604px;
+    left: 361px;
+    background-image: url('../images/decorative-2.svg');
+}
+
+.decorative-3 {
+    width: 201px;
+    height: 329px;
+    top: 1275px;
+    left: 1608px;
+    background-image: url('../images/decorative-3.svg');
+}
+
+.decorative-4 {
+    width: 1801.58px;
+    height: 1261.33px;
+    top: 1757px;
+    left: -33px;
+    background-image: url('../images/decorative-4.svg');
+}
+
+.decorative-5 {
+    width: 276px;
+    height: 144px;
+    top: 2529px;
+    left: 1435px;
+    background-image: url('../images/decorative-5.svg');
+}
+
+.decorative-6 {
+    width: 234.03px;
+    height: 183.81px;
+    top: 1942px;
+    left: 572px;
+    background-image: url('../images/decorative-6.svg');
+}
+
+.decorative-7 {
+    width: 264px;
+    height: 233.81px;
+    top: 2439px;
+    left: 1457px;
+    background-image: url('../images/decorative-7.svg');
+}
+
+.decorative-8 {
+    width: 251.36px;
+    height: 636.85px;
+    top: 3732.54px;
+    left: 1387.88px;
+    background-image: url('../images/decorative-8.svg');
+}
+
+.decorative-9 {
+    width: 828px;
+    height: 501px;
+    top: 3409px;
+    left: 733px;
+    background-image: url('../images/decorative-9.svg');
+}
+
+.decorative-10 {
+    width: 1920.01px;
+    height: 627.54px;
+    top: 2955px;
+    left: 8px;
+    background-image: url('../images/decorative-10.svg');
+}
+
+.decorative-11 {
+    width: 252.13px;
+    height: 593.05px;
+    top: 3754px;
+    left: 1393px;
+    background-image: url('../images/decorative-11.svg');
+}
+
+.decorative-12 {
+    width: 685.21px;
+    height: 380.28px;
+    top: 3569px;
+    left: 279px;
+    background-image: url('../images/decorative-12.svg');
+}
+
+.decorative-13 {
+    width: 583.34px;
+    height: 597.14px;
+    top: 3813px;
+    left: 245px;
+    background-image: url('../images/decorative-13.svg');
+}
+
+.decorative-14 {
+    width: 71.77px;
+    height: 91.13px;
+    top: 3358px;
+    left: 896px;
+    background-image: url('../images/decorative-14.svg');
+}
+
+.decorative-15 {
+    width: 71.77px;
+    height: 91.13px;
+    top: 3351px;
+    left: 560px;
+    background-image: url('../images/decorative-15.svg');
+}
+
+.decorative-16 {
+    width: 71.77px;
+    height: 91.13px;
+    top: 3507px;
+    left: 639px;
+    background-image: url('../images/decorative-16.svg');
+}
+
+.decorative-17 {
+    width: 1229.26px;
+    height: 643.79px;
+    top: 5109.29px;
+    left: -250px;
+    background-image: url('../images/decorative-17.svg');
+}
+
+.decorative-18 {
+    width: 871.12px;
+    height: 723.48px;
+    top: 5020.37px;
+    left: 440.66px;
+    background-image: url('../images/decorative-18.svg');
+    z-index: 15;
+}
+
+.decorative-19 {
+    width: 1341px;
+    height: 756px;
+    top: 4184px;
+    left: -2px;
+    background-image: url('../images/decorative-19.svg');
+}
+
+.decorative-20 {
+    width: 1233px;
+    height: 637px;
+    top: 8288px;
+    left: 753px;
+    background-image: url('../images/decorative-20.svg');
+    z-index: 15;
+}
+
+.decorative-21 {
+    width: 560.59px;
+    height: 504.66px;
+    top: 6044px;
+    left: 133px;
+    background-image: url('../images/decorative-21.svg');
+}
+
+.decorative-22 {
+    width: 560.59px;
+    height: 504.66px;
+    top: 6587px;
+    left: 713px;
+    background-image: url('../images/decorative-22.svg');
+}
+
+.decorative-23 {
+    width: 560.59px;
+    height: 504.66px;
+    top: 7187px;
+    left: 1209px;
+    background-image: url('../images/decorative-23.svg');
+}
+
+.decorative-24 {
+    width: 312.31px;
+    height: 418.22px;
+    top: 6123px;
+    left: 1388px;
+    background-image: url('../images/decorative-24.svg');
+}
+
+.decorative-25 {
+    width: 312.31px;
+    height: 418.22px;
+    top: 6630px;
+    left: 268px;
+    background-image: url('../images/decorative-25.svg');
+}
+
+.decorative-26 {
+    width: 312.31px;
+    height: 418.22px;
+    top: 7263px;
+    left: 809px;
+    background-image: url('../images/decorative-26.svg');
+}
+
+.decorative-27 {
+    width: 426.9px;
+    height: 805.05px;
+    top: 9578px;
+    left: 170px;
+    background-image: url('../images/decorative-27.svg');
+}
+
+.decorative-28 {
+    width: 1536px;
+    height: 1351px;
+    top: 10117px;
+    left: 133px;
+    background-image: url('../images/decorative-28.svg');
+}
+
+.decorative-29 {
+    width: 517.07px;
+    height: 301.43px;
+    top: 11280.24px;
+    left: 900.68px;
+    background-image: url('../images/decorative-29.svg');
+    z-index: 20;
+}
+
+.decorative-30 {
+    width: 345.1px;
+    height: 400.95px;
+    top: 10400.39px;
+    left: 1337.04px;
+    background-image: url('../images/decorative-30.svg');
+    z-index: 20;
+}
+
+.decorative-31 {
+    width: 322.41px;
+    height: 479.33px;
+    top: 10801.34px;
+    left: 1472.36px;
+    background-image: url('../images/decorative-31.svg');
+}
+
+.decorative-32 {
+    width: 276.45px;
+    height: 160.59px;
+    top: 11188.54px;
+    left: 1560.34px;
+    background-image: url('../images/decorative-32.svg');
+}
+
+/* Прямоугольники */
+.rectangle {
+    position: absolute;
+    z-index: 1;
+}
+
+.rectangle-1 {
+    top: 4489px;
+    left: -2px;
+    width: 1948px;
+    height: 1100px;
+    background-color: #FF5A00;
+}
+
+.rectangle-2 {
+    top: 8148px;
+    left: -9px;
+    width: 1948px;
+    height: 1100px;
+    background-color: #332E7F;
+}
+
+.rectangle-3 {
+    top: 4613px;
+    left: 154px;
+    width: 1053px;
+    height: 88px;
+    background-color: #FF5A00;
+}
+
+
+/* Полигон */
+.polygon {
+    position: absolute;
+    top: 9549px;
+    left: 407px;
+    width: 103px;
+    height: 58px;
+    background-color: #FF5A00;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    z-index: 12;
+}
+
+/* Секция "О шрифте" */
+.about-section {
+    position: absolute;
+    top: 1098px;
+    left: 960px;
+    width: 400px;
+    height: 112px;
+    z-index: 12;
+}
+
+.about-section h2 {
+    font-family: 'Fantasque Sans Mono', monospace;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 1.4em;
+    color: #121212;
+    text-align: left;
+    margin: 0;
+    font-weight: 600;
+}
+
+/* Секция с текстом о шрифте */
+.about-content {
+    position: absolute;
+    top: 1210px;
+    left: 960px;
+    width: 559px;
+    height: 266px;
+    z-index: 12;
+}
+
+.about-content p {
+    font-family: 'Fantasque Sans Mono', monospace;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.25em;
+    color: #121212;
+    text-align: left;
+    margin: 0;
+    font-weight: 600;
+}
+
+
+/* Секция с характеристиками шрифта */
+.features-section {
+    position: absolute;
+    top: 2097px;
+    left: 457px;
+    width: 1048px;
+    height: 518px;
+    z-index: 12;
+}
+
+.feature-text {
+    position: absolute;
+    top: -50px;
+    left: 600px;
+    width: 400px;
+    height: 190px;
+}
+
+.feature-text p {
+    font-family: 'Fantasque Sans Mono', monospace;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.25em;
+    color: #FFFFFF;
+    text-align: left;
+    margin: 0;
+}
+
+.font-weights {
+    position: absolute;
+    top: 206px;
+    left: -600px;
+    width: 390.55px;
+    height: 312px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.font-weights span {
+    font-family: 'Fantasque Sans Mono', monospace;
+    font-size: 55.89px;
+    font-weight: 400;
+    line-height: 1.4em;
+    color: #FFFFFF;
+    text-align: left;
+    margin: 0;
+}
+
+.font-weights span:nth-child(1) {
+    font-weight: 400;
+    font-style: normal;
+}
+
+.font-weights span:nth-child(2) {
+    font-weight: 400;
+    font-style: italic;
+}
+
+.font-weights span:nth-child(3) {
+    font-weight: 700;
+    font-style: normal;
+}
+
+.font-weights span:nth-child(4) {
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* Секция особенностей */
+.characteristics-section {
+    position: absolute;
+    top: 2899px;
+    left: 218px;
+    width: 746px;
+    height: 112px;
+    z-index: 12;
+}
+
+.characteristics-section h2 {
+    font-family: 'Fantasque Sans Mono', monospace;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 1.4em;
+    color: #121212;
+    text-align: left;
+    margin: 0;
+    font-weight: 600;
+}
+
+/* Секция с текстом об особенностях */
+.characteristics-content {
+    position: absolute;
+    top: 3500px;
+    left: 854px;
+    width: 595px;
+    height: 342px;
+    z-index: 12;
+}
+
+.characteristics-content p {
+    font-family: 'Fantasque Sans Mono', monospace;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.25em;
+    color: #121212;
+    text-align: left;
+    margin: 0;
+    font-weight: 600;
+}
+
+/* Секция с цифрами */
+.numbers-section {
+    position: absolute;
+    top: 5922px;
+    left: 261px;
+    width: 208px;
+    height: 112px;
+    z-index: 12;
+}
+
+.numbers-section h2 {
+    font-family: 'Fantasque Sans Mono', monospace;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 1.4em;
+    color: #121212;
+    text-align: left;
+    margin: 0;
+}
+
+/* Секция с описанием цифр */
+.numbers-subtitle {
+    position: absolute;
+    top: 7771px;
+    left: 704px;
+    width: 650px;
+    height: 78px;
+    z-index: 12;
+}
+
+.numbers-subtitle h3 {
+    font-family: 'Fantasque Sans Mono', monospace;
+    font-size: 55.89px;
+    font-weight: 400;
+    line-height: 1.4em;
+    color: #121212;
+    text-align: left;
+    margin: 0;
+    white-space: nowrap;
+    font-weight: 600;
+}
+
+/* Секция с отображением цифр */
+.numbers-display {
+    position: absolute;
+    top: 6029px;
+    left: 330px;
+    width: 1233px;
+    height: 933px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    z-index: 12;
+}
+
+.number-item {
+    font-family: 'Fantasque Sans Mono', monospace;
+    font-size: 350px;
+    font-weight: 400;
+    line-height: 1.4em;
+    color: #000000;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 20;
+    position: relative;
+}
+
+/* Индивидуальные стили для цифр согласно макету */
+.number-item:nth-child(1) {
+    font-weight: 400; /* Regular */
+    font-style: normal;
+    margin-left: -60px;
+}
+
+.number-item:nth-child(2) {
+    font-weight: 400; /* Regular */
+    font-style: italic;
+    margin-left: -60px;
+}
+
+.number-item:nth-child(3) {
+    font-weight: 700; /* Bold */
+    font-style: italic;
+    margin-left: -60px;
+}
+
+.number-item:nth-child(4) {
+    font-weight: 700; /* Bold */
+    font-style: normal;
+    margin-left: -60px;
+}
+
+.number-item:nth-child(5) {
+    font-weight: 700; /* Bold */
+    font-style: italic;
+    margin-left: -60px;
+}
+
+.number-item:nth-child(6) {
+    font-weight: 400; /* Regular */
+    margin-left: -60px;
+    font-style: italic;
+}
+
+.number-item:nth-child(7) {
+    font-weight: 400; /* Regular */
+    font-style: italic;
+    margin-left: -60px;
+}
+
+.number-item:nth-child(8) {
+    font-weight: 700; /* Bold */
+    font-style: normal;
+    margin-left: -60px;
+}
+
+.number-item:nth-child(9) {
+    font-weight: 400; /* Regular */
+    font-style: normal;
+    margin-left: -60px;
+}
+
+/* Индивидуальные позиции для цифр относительно их SVG объектов */
+.number-item:nth-child(1) {
+    position: absolute;
+    top: 50px;
+    left: -100px;
+    width: 400px;
+    height: 300px;
+}
+
+.number-item:nth-child(2) {
+    position: absolute;
+    top: 50px;
+    left: 500px;
+    width: 400px;
+    height: 300px;
+}
+
+.number-item:nth-child(3) {
+    position: absolute;
+    top: 50px;
+    left: 1100px;
+    width: 400px;
+    height: 300px;
+}
+
+.number-item:nth-child(4) {
+    position: absolute;
+    top: 700px;
+    left: -100px;
+    width: 400px;
+    height: 300px;
+}
+
+.number-item:nth-child(5) {
+    position: absolute;
+    top: 700px;
+    left: 500px;
+    width: 400px;
+    height: 300px;
+}
+
+.number-item:nth-child(6) {
+    position: absolute;
+    top: 700px;
+    left: 1100px;
+    width: 400px;
+    height: 300px;
+}
+
+.number-item:nth-child(7) {
+    position: absolute;
+    top: 1200px;
+    left: -100px;
+    width: 400px;
+    height: 300px;
+}
+
+.number-item:nth-child(8) {
+    position: absolute;
+    top: 1200px;
+    left: 500px;
+    width: 400px;
+    height: 300px;
+}
+
+.number-item:nth-child(9) {
+    position: absolute;
+    top: 1200px;
+    left: 1100px;
+    width: 400px;
+    height: 300px;
+}
+
+/* Секция с языками */
+.languages-section {
+    position: absolute;
+    top: 4594px;
+    left: 230px;
+    width: 911px;
+    height: 107px;
+    background-color: #FF5A00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 12;
+}
+
+.languages-section h2 {
+    font-family: 'Fantasque Sans Mono', monospace;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 1.4em;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0;
+}
+
+/* SVG элементы поверх заголовка языков */
+.languages-svg-1 {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    width: 35px;
+    height: 33px;
+    background-color: #FFB96C;
+    border-radius: 50%;
+    z-index: 15;
+}
+
+.languages-svg-2 {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    width: 35px;
+    height: 33px;
+    background-color: #FFB96C;
+    border-radius: 50%;
+    z-index: 15;
+}
+
+/* Секция с отображением языков */
+.languages-content {
+    position: absolute;
+    top: 4745px;
+    left: 982px;
+    width: 855px;
+    height: 234px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    z-index: 12;
+}
+
+.language-group-left {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    position: relative;
+}
+
+.language-group-right {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    position: relative;
+}
+
+.arrows-column {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 0;
+    height: 100%;
+}
+
+.language-text {
+    font-family: 'Fantasque Sans Mono', monospace;
+    font-size: 55.89px;
+    font-weight: 400;
+    line-height: 1.4em;
+    color: #FAF9EF;
+    text-align: left;
+}
+
+.language-text p {
+    margin: 0;
+}
+
+.arrow-lang {
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    flex-shrink: 0;
+}
+
+.arrow-lang-1 { 
+    background-image: url('../images/arrow-languages-1.svg');
+    margin-top: 20px;
+    margin-bottom: 0;
+    align-self: center;
+}
+.arrow-lang-2 { 
+    background-image: url('../images/arrow-languages-2.svg');
+    margin-top: 20px;
+    margin-bottom: 0;
+    align-self: center;
+}
+.arrow-lang-3 { 
+    background-image: url('../images/arrow-languages-3.svg');
+    margin-top: 45px;
+    margin-bottom: 0;
+    align-self: center;
+}
+.arrow-lang-4 { 
+    background-image: url('../images/arrow-languages-4.svg');
+    margin-top: 45px;
+    margin-bottom: 0;
+    align-self: center;
+}
+.arrow-lang-5 { 
+    background-image: url('../images/arrow-languages-5.svg');
+    margin-top: 30px;
+    margin-bottom: 0;
+    align-self: center;
+}
+.arrow-lang-6 { 
+    background-image: url('../images/arrow-languages-6.svg');
+    margin-top: 30px;
+    margin-bottom: 0;
+    align-self: center;
+}
+
+/* Секция с выводом */
+.conclusion-section {
+    position: absolute;
+    top: 1650px;
+    left: 441px;
+    width: 1115px;
+    height: 149px;
+    z-index: 12;
+}
+
+.conclusion-section p {
+    font-family: 'Fantasque Sans Mono', monospace;
+    font-size: 50.89px;
+    font-weight: 400;
+    line-height: 1.2em;
+    color: #000000;
+    text-align: left;
+    margin: 0;
+    font-weight: 600;
+}
+
+/* Секция "СРУБЛЕННЫЙ" */
+.cut-section {
+    position: absolute;
+    top: 8413px;
+    left: 58px;
+    width: 1800px;
+    height: 441px;
+    background-color: #332E7F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 12;
+}
+
+.cut-section h2 {
+    font-family: 'Fantasque Sans Mono', monospace;
+    font-size: 320px;
+    font-weight: 400;
+    line-height: 1.4em;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0;
+}
+
+/* Секция с лигатурами */
+.ligatures-section {
+    position: absolute;
+    top: 9470px;
+    left: 990px;
+    width: 332px;
+    height: 112px;
+    z-index: 12;
+}
+
+.ligatures-section h2 {
+    font-family: 'Fantasque Sans Mono', monospace;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 1.4em;
+    color: #121212;
+    text-align: left;
+    margin: 0;
+}
+
+/* Секция с текстом о лигатурах */
+.ligatures-content {
+    position: absolute;
+    top: 9578px;
+    left: 990px;
+    width: 559px;
+    height: 190px;
+    z-index: 12;
+}
+
+.ligatures-content p {
+    font-family: 'Fantasque Sans Mono', monospace;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.25em;
+    color: #121212;
+    text-align: left;
+    margin: 0;
+}
+
+/* Секция применения */
+.application-section {
+    position: absolute;
+    top: 9934px;
+    left: 990px;
+    width: 415px;
+    height: 112px;
+    z-index: 12;
+}
+
+.application-section h2 {
+    font-family: 'Fantasque Sans Mono', monospace;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 1.4em;
+    color: #121212;
+    text-align: left;
+    margin: 0;
+}
+
+/* Секция с меню */
+.application-subtitle {
+    position: absolute;
+    top: 10140.99px;
+    left: 662.21px;
+    width: 171.37px;
+    height: 128.37px;
+    z-index: 12;
+}
+
+.application-subtitle h3 {
+    font-family: 'Fantasque Sans Mono', monospace;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 1.4em;
+    color: #121212;
+    text-align: left;
+    margin: 0;
+}
+
+/* Секция с описанием меню */
+.application-description {
+    position: absolute;
+    top: 10330px;
+    left: 593.04px;
+    width: 1000px;
+    height: 400px;
+    z-index: 12;
+}
+
+.application-description h4 {
+    font-family: 'Fantasque Sans Mono', monospace;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 1.4em;
+    color: #121212;
+    text-align: left;
+    margin: 0;
+    margin-bottom: 20px;
+    position: relative;
+    top: -40px;
+}
+
+.menu-items {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 12;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 0;
+    width: 100%;
+    position: relative;
+    white-space: nowrap;
+    min-width: 800px;
+}
+
+/* Расположение элементов лесенкой в соответствии с кружочками */
+.menu-item:nth-child(1) {
+    margin-left: -30px;
+    margin-top: -15px;
+}
+
+.menu-item:nth-child(1) .item-price {
+    margin-right: 130px;
+}
+
+.menu-item:nth-child(2) {
+    margin-left: -60px;
+    margin-top: 5px;
+}
+
+.menu-item:nth-child(2) .item-price {
+    margin-right: 135px;
+}
+
+.menu-item:nth-child(3) {
+    margin-left: -90px;
+    margin-top: 10px;
+}
+
+.menu-item:nth-child(3) .item-price {
+    margin-right: 140px;
+}
+
+.menu-item:nth-child(4) {
+    margin-left: -120px;
+    margin-top: 15px;
+}
+
+.menu-item:nth-child(4) .item-price {
+    margin-right: 140px;
+}
+
+.menu-item:nth-child(5) {
+    margin-left: -150px;
+    margin-top: 10px;
+}
+
+.menu-item:nth-child(5) .item-price {
+    margin-right: 160px;
+}
+
+.menu-item:nth-child(6) {
+    margin-left: -180px;
+    margin-top: 15px;
+}
+
+.menu-item:nth-child(6) .item-price {
+    margin-right: 135px;
+}
+
+.item-name {
+    font-family: 'Fantasque Sans Mono', monospace;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 1.25em;
+    color: #121212;
+    text-align: left;
+}
+
+.item-dots {
+    font-family: 'Fantasque Sans Mono', monospace;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.25em;
+    color: #121212;
+    text-align: center;
+    margin: 0 10px;
+    flex: 1;
+    white-space: nowrap;
+}
+
+.item-price {
+    font-family: 'Fantasque Sans Mono', monospace;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.25em;
+    color: #121212;
+    text-align: right;
+    margin-left: auto;
+}
+
+/* Футер */
+.footer {
+    position: absolute;
+    top: 11850px;
+    left: 0;
+    width: 1920px;
+    height: 550px;
+    background-color: #121212;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 12;
+}
+
+.footer-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+}
+
+.footer-column {
+    text-align: center;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-column h4 {
+    font-family: 'Fantasque Sans Mono', monospace;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.4em;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.footer-column p {
+    font-family: 'Fantasque Sans Mono', monospace;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.4em;
+    color: #FFFFFF;
+}
+
+.footer-logo {
+    text-align: right;
+    margin-left: auto;
+}
+
+.footer-logo img {
+    max-width: 415.34px;
+    height: auto;
+}
+
+/* Адаптивность */
+@media (max-width: 1200px) {
+    main {
+        transform: scale(0.4);
+        transform-origin: top center;
+    }
+}
+
+@media (max-width: 768px) {
+    main {
+        transform: scale(0.3);
+        transform-origin: top center;
+    }
+}
